@@ -11,7 +11,7 @@
 
 🔗 [Acesse o Piano Virtual](https://codebytayne.github.io/piano-js/)
 
-    O projeto consiste em simular um piano virtual.
+    O projeto consiste em criar um simulador de um piano virtual.
 
 ![Texto alternativo](src/demo/demo.gif)
 
