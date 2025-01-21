@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piano Simulator</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="./src/styles/reset.css">
+  <link rel="stylesheet" href="./src/styles/main.css">
+  <link rel="icon" href="./src/images/favicon.png" type="png">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,300;1,400&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h2>Piano Virtual</h2>
+      <div class="column volume-slider">
+        <span>Volume</span> <input type="range" min="0" max="1" value="0.5" step="any">
+      </div>
+      <div class="column keys-check">
+        <span>Teclas</span> <input type="checkbox" checked>
+      </div>
+      <div class="column notes-check">
+        <span>Notas</span> <input type="checkbox" checked>
+      </div>
+    </header>
+    <ul class="piano-keys">
+        <li class="key white" data-key="a" data-note="C"><span>a</span></li>
+        <li class="key black" data-key="w" data-note="C#"><span>w</span></li>
+        <li class="key white" data-key="s" data-note="D"><span>s</span></li>
+        <li class="key black" data-key="e" data-note="D#"><span>e"></li>
+        <li class="key white" data-key="d" data-note="E"><span>d"></li>
+        <li class="key black" data-key="f" data-note="F"><span>f"></li>
+        <li class="key white" data-key="t" data-note="F#"><span>t"></li>
+        <li class="key black" data-key="g" data-note="G"><span>g"></li>
+        <li class="key white" data-key="y" data-note="G#"><span>y"></li>
+        <li class="key black" data-key="h" data-note="A"><span>h"></li>
+        <li class="key white" data-key="u" data-note="A#"><span>u"></li>
+        <li class="key black" data-key="j" data-note="B"><span>j"></li>
+        <li class="key white" data-key="k" data-note="C"><span>k"></li>
+        <li class="key black" data-key="o" data-note="C#"><span>o"></li>
+        <li class="key white" data-key="l" data-note="D"><span>l"></li>
+        <li class="key black" data-key="p" data-note="D#"><span>p"></li>
+        <li class="key white" data-key=";" data-note="E"><span>;</li>
+      </ul>      
+    </div>
+
+  <script src="./src/scripts/engine.js" defer></script>
+</body>
+
+</html>
